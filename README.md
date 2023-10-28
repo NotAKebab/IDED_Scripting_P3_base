@@ -7,6 +7,7 @@ Esteban Gallón Uribe 000425705
 ### Inconvenientes utilizando el patrón state:
 
 Complejidad: El patrón State puede ser complejo de implementar, especialmente para flujos simples como el del prototipo actual.
+
 Redundancia: El patrón State puede generar código redundante, ya que cada estado debe implementar la misma lógica para cada evento.
 
 ### Estrategia de implementación:
