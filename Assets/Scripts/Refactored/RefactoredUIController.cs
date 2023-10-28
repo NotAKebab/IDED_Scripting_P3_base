@@ -11,13 +11,13 @@ public class RefactoredUIController : UIControllerBase
 
     // Añade referencias a los elementos del UI en el Inspector.
     [SerializeField]
-    private GameObject gameOverOverlay;
+    public GameObject gameOverOverlay;
 
     [SerializeField]
-    private Text scoreText;
+    public Text scoreText;
 
     [SerializeField]
-    private Text arrowCountText;
+    public Text arrowCountText;
 
     #region Unity lifecycle methods
 
