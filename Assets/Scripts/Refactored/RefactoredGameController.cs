@@ -17,7 +17,7 @@ public class RefactoredGameController : GameControllerBase
         Instance = this;
     }
 
-    private void Update()
+    public void Update()
     {
         if (CheckGameOver())
         {
@@ -25,7 +25,7 @@ public class RefactoredGameController : GameControllerBase
         }
     }
 
-    private bool CheckGameOver()
+    public bool CheckGameOver()
     {
         return RemainingArrows <= 0;
     }

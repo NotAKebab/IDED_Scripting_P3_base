@@ -21,7 +21,7 @@ public class RefactoredUIController : UIControllerBase
 
     #region Unity lifecycle methods
 
-    private void Start()
+    public void Start()
     {
         if (gameOverOverlay != null)
         {
