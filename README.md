@@ -13,11 +13,11 @@ Redundancia: El patrón State puede generar código redundante, ya que cada esta
 
 Una estrategia de implementación para el prototipo actual sería utilizar una máquina de estados con los siguientes estados:
 
-Espera
-Disparo
-Mostrar punto de impacto
-Calcular puntaje
-Determinar GameOver
+- Espera
+- Disparo
+- Mostrar punto de impacto
+- Calcular puntaje
+- Determinar GameOver
 
 Las transiciones entre estados serían las siguientes:
 
